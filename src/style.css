@@ -1,0 +1,47 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+label {
+    color: white;
+    font-size: .8rem;
+    padding-left: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    appearance: none;
+
+    background-color: #0F172A;
+    color: white;
+    border-radius: 40px;
+    padding: 24px;
+    height: 2rem;
+    border: #334155 solid 1px;
+    font-size: 1rem;
+    height: 3rem;
+
+}
+
+
+input[type="text"]:focus {
+    appearance: none;
+
+    background-color: #0F172A;
+    border-color: #456f8b;
+    border-style: solid;
+    border-width: 4px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+
+    height: 20px;
+    width: 20px;
+
+    border: #334155 solid 2px;
+    border-radius: 4px;
+}

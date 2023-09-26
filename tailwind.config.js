@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         logo: ['Skranji'],
+        poppins: ['Poppins'],
       }
     },
   },

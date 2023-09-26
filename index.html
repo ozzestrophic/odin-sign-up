@@ -10,16 +10,67 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800&family=Skranji:wght@400;700&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
     <div class="md:flex bg-[url('/src/images/sidebar-image.jpg')] bg-contain h-screen">
         <div class="h-40 md:h-screen flex flex-col justify-center items-stretch md:w-6/12 relative">
-            <div class="bg-[#315770] text-center h-auto py-4 bg-opacity-40 "><h1 class="opacity-100 text-white text-3xl font-logo">Sign Up Project</h1></div>
+            <div class="bg-[#020405] text-center h-28 py-4 bg-opacity-60 flex flex-col justify-center "><h1 class="opacity-100 text-white text-3xl font-logo">Sign Up Project</h1></div>
         </div>
-        <div class="bg-[#142b3a] w-screen h-screen rounded-l-[80px] "></div>  
+        <div class="bg-[#0F172A] w-screen h-screen rounded-l-[80px] ">
+            <div class="flex flex-col items-stretch justify-center p-20 box-border gap-16">
+                <div class="flex flex-col gap-4">
+                    <h1 class="text-white text-5xl font-semibold">Join us today 👋</h1>
+                    <p class="text-[#94A3B8]">This is not a real website, just a mock project for The Odin Project</p>
+                </div>
+                <form action="" class="">
+                    <div class="flex flex-col gap-6">
+                        <div class="flex w-full justify-stretch gap-8">
+                            <div class="flex flex-col w-full gap-2">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName">
+                            </div>
+                            <div class="flex flex-col w-full gap-2">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName">
+                            </div>
+                        </div>
+                        <div class="flex w-full justify-stretch gap-8">
+                            <div class="flex flex-col w-full gap-2">
+                                <label for="email">Email</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div class="flex flex-col w-full gap-2">
+                                <label for="telnum">Phone Number</label>
+                                <input type="tel" id="telnum">
+                            </div>
+                        </div>
+                        <div class="flex w-full justify-stretch gap-8">
+                            <div class="flex flex-col w-full gap-2">
+                                <label for="pass">Password</label>
+                                <input type="password" id="pass">
+                            </div>
+                            <div class="flex flex-col w-full gap-2">
+                                <label for="passconf">Confirm Password</label>
+                                <input type="password" id="passconf">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center py-2">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">I want to be bothered with emails</label>
+                        </div>
+
+
+                        <button class="bg-[#2563EB] h-14 w-60  text-white rounded-2xl">Sign Up</button>
+                        <div class="text-white text-sm font-thin">Already have an account? <a href="" class="font-medium">Log In</a></div>
+                    </div>
+
+                </form>
+            </div>
+        </div>  
     </div>
 </body>
 </html>
