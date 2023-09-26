@@ -814,10 +814,6 @@ video {
   height: 7rem;
 }
 
-.h-60 {
-  height: 15rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1863,30 +1859,6 @@ video {
 
 .bg-\[url\(\'\/src\/images\/sidebar-imag\.jpg\'\)\] {
   background-image: url('/src/images/sidebar-imag.jpg');
-}
-
-.bg-\[url\(\'src\/images\/sidebar-image\.jpg\'\)\] {
-  background-image: url('src/images/sidebar-image.jpg');
-}
-
-.bg-\[url\(\'src\/images\/sidebar-imag\.jpg\'\)\] {
-  background-image: url('src/images/sidebar-imag.jpg');
-}
-
-.bg-\[url\(\'\/src\/images\/sidebarimage\.jpg\'\)\] {
-  background-image: url('/src/images/sidebarimage.jpg');
-}
-
-.bg-\[url\(\'\.\/src\/images\/sidebarimage\.jpg\'\)\] {
-  background-image: url('./src/images/sidebarimage.jpg');
-}
-
-.bg-\[url\(\'src\/images\/sidebarimage\.jpg\'\)\] {
-  background-image: url('src/images/sidebarimage.jpg');
-}
-
-.bg-\[url\(\'\.\.\/\.\/src\/images\/sidebarimage\.jpg\'\)\] {
-  background-image: url('.././src/images/sidebarimage.jpg');
 }
 
 .decoration-slice {
